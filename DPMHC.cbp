@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="DPMHC" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/DPMHC" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/DPMHC" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="include" />
+			<Add directory="src" />
+		</Compiler>
+		<Unit filename="DPMHC_smplr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="DPMHC_smplr.h" />
+		<Unit filename="DPMN_polya_smplr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="DPMN_polya_smplr.h" />
+		<Unit filename="firm_DPMHC.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="firm_DPMHC.h" />
+		<Unit filename="firm_DPMN_alpha.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="firm_DPMN_alpha.h" />
+		<Unit filename="firm_alpha_sampler.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="firm_alpha_sampler.h" />
+		<Unit filename="firm_linear_model.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="firm_linear_model.h" />
+		<Unit filename="include/distr.h" />
+		<Unit filename="include/jensen_util.h" />
+		<Unit filename="include/kernel_histogram.h" />
+		<Unit filename="include/linear_model.h" />
+		<Unit filename="include/matrix.h" />
+		<Unit filename="include/mydefn.h" />
+		<Unit filename="include/ps.h" />
+		<Unit filename="include/ran.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="read_mf_data.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="read_mf_data.h" />
+		<Unit filename="src/distr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/jensen_util.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/kernel_histogram.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/linear_model.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/matrix.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/ps.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/ran.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
